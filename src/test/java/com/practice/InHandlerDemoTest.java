@@ -15,7 +15,7 @@ public class InHandlerDemoTest {
         ChannelInitializer<EmbeddedChannel> init = new ChannelInitializer<>() {
             // 初始化處理器
             @Override
-            protected void initChannel(EmbeddedChannel ch) throws Exception {
+            protected void initChannel(EmbeddedChannel ch) {
                 ch.pipeline().addLast(inHandlerDemo);
             }
         };
