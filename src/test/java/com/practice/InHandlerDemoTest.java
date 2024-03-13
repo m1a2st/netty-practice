@@ -6,7 +6,7 @@ import io.netty.channel.ChannelInitializer;
 import io.netty.channel.embedded.EmbeddedChannel;
 import org.junit.jupiter.api.Test;
 
-public class InHandlerDemoTester {
+public class InHandlerDemoTest {
 
     @Test
     public void testInHandlerLifeCycle() {
