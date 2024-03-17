@@ -1,6 +1,6 @@
-package com.practice.main;
+package com.practice.discard.main;
 
-import com.practice.DiscardNettyServer;
+import com.practice.discard.DiscardNettyServer;
 
 public class ServerRunner {
     public static void main(String[] args) {
