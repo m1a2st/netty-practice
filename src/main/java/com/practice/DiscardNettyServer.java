@@ -58,5 +58,6 @@ public class DiscardNettyServer {
             bossLoopGroup.shutdownGracefully();
             workerLoopGroup.shutdownGracefully();
         }
+
     }
 }
