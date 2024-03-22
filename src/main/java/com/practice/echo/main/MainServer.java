@@ -1,10 +1,11 @@
 package com.practice.echo.main;
 
+import com.practice.NettyConfig;
 import com.practice.echo.EchoNettyServer;
 
 public class MainServer {
 
     public static void main(String[] args) {
-        new EchoNettyServer(6000).runServer();
+        new EchoNettyServer(NettyConfig.PORT).runServer();
     }
 }
