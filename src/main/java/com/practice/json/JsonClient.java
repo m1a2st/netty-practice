@@ -1,9 +1,7 @@
 package com.practice.json;
 
-import com.practice.echo.EchoNettyClientHandler;
 import com.practice.object.JsonMessage;
 import io.netty.bootstrap.Bootstrap;
-import io.netty.buffer.ByteBuf;
 import io.netty.buffer.PooledByteBufAllocator;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;
@@ -17,10 +15,6 @@ import io.netty.handler.codec.string.StringEncoder;
 import lombok.extern.slf4j.Slf4j;
 
 import java.nio.charset.StandardCharsets;
-import java.time.format.DateTimeFormatter;
-import java.util.Scanner;
-
-import static java.time.LocalDateTime.now;
 
 @Slf4j
 public class JsonClient {

@@ -3,9 +3,11 @@ package com.practice.object;
 import com.practice.utils.JsonUtil;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 public class JsonMessage {
 
     private int id;
